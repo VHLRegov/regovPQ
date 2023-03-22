@@ -1,0 +1,20 @@
+{
+  "name": "weidy2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn build && node dist/index.js",
+    "dev": "tsnd src/index.ts ",
+    "build": "rm -rf ./dist && tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@aries-framework/core": "^0.2.5",
+    "@aries-framework/node": "^0.2.5",
+    "@aries-framework/rest": "^0.9.4"
+  }
+}

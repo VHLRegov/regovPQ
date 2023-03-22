@@ -3,7 +3,7 @@ Clone the repository.
 ```git
 git clone  https://github.com/VHLRegov/regovPQ.git
 ```
-change into 'WeiDY Solution' folder.
+change into weidy2 folder.
 ```bash
 cd weidy2
 ```
